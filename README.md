@@ -1,4 +1,4 @@
-# README-Generator
+# README Generator
 
 ## Description
 
@@ -26,7 +26,8 @@ Created by Jacob Torres
 
 ## Test Instructions
 
-View my demo: <a></a>
+View my demo: <a href=https://drive.google.com/file/d/1p5FZsosQmG0539ZWil2J3qlj_iDzJsuM/view
+</a>
 
 ## License
 
@@ -35,8 +36,6 @@ A short and simple permissive license with conditions only requiring preservatio
 
 # Questions
 
-For any questions about this assignment, please feel free to reach out to me on my github or via email. Thank you for viewing this application.
-
-Gmail:Simplyjacob00@gmail.com
-
-Github Link: https://github.com/Jacob1205/README-Generator
+For any questions about the assignment, please feel free to reach out to me on github or via email. Thanks for viewing this application.
+https://github.com/Jacob1205/README-Generator
+Simplyjacob00@gmail.com
