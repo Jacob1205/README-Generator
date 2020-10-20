@@ -41,14 +41,14 @@ function promptUser(answers) {
       name: "license",
       message: "What types of licenses?",
       choices: [
-        "GNU AGPLv3",
-        "GNU GPLv3",
-        "GNU LPGLv3",
         "Mozilla Public License 2.0",
         "Apache License 2.0",
         "MIT License",
         "Boost Software License 1.0",
         "The Unlicense",
+        "GNU AGPLv3",
+        "GNU GPLv3",
+        "GNU LPGLv3",
       ],
     },
     {
@@ -102,7 +102,7 @@ const badges = {
     "[![Generic badge](https://img.shields.io/badge/License-Unlicense-<COLOR>.svg)](https://shields.io/)",
 };
 
-function generateMD(answers) {
+function generateMarkdown(answers) {
   return `
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) 
 ${badges[answers.license]}
@@ -136,12 +136,10 @@ ${answers.email}
 
 promptUser()
   .then(function (answers) {
-    const markdown = generateMD(answers);
+    const markdown = generateMarkdown(answers);
     return writeFileAsync("README.md", markdown);
   })
-  .then(function () {
-    console.log("Successfully wrote to README.md");
-  })
+  .then(function () {})
   .catch(function (err) {
     console.log(err);
   });
